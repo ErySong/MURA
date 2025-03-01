@@ -1,0 +1,15 @@
+_target_: exp.ExpMain.ExpModel
+net_params:
+  #必须
+  name: MURA
+  seq_len: ${forecast.seq_len}
+  pred_len: ${forecast.pred_len}
+  channels: ${data.data_params.enc_in}
+  features: ${forecast.features} # input dimension
+  norm_type: seq
+  lr: ${forecast.lr}
+  visual_cs: ${data.data_params.visual_cs}
+  #
+  trend_freq: 0.2
+  stride: 24
+  d_model: 128

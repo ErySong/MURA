@@ -1,0 +1,16 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: Traffic
+  loader: custom
+  root_path: ${forecast.data_path}/traffic/
+  data_path: traffic.csv
+  seq_len: ${forecast.seq_len}
+  pred_len: ${forecast.pred_len}
+  label_len: ${forecast.label_len}
+  freq: h
+  target: OT
+  enc_in: 862
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [ 0, 10, 20, 40, 80, 160, 320, 400, 500, 600, 700, 800, 860, 861 ]
+batch_size: ${forecast.batch_size}

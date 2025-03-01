@@ -1,0 +1,17 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: Electricity
+  loader: custom
+  root_path: ${forecast.data_path}/electricity/
+  data_path: electricity.csv
+  seq_len: ${forecast.seq_len}
+  pred_len: ${forecast.pred_len}
+  label_len: ${forecast.label_len}
+  freq: h
+  target: OT
+  enc_in: 321
+  embed: timeF
+  features: ${forecast.features} # M,MS,S
+  visual_cs: [0, 1, 2, 3, 10, 250, 300, 318, 319, 320]
+
+batch_size: ${forecast.batch_size}

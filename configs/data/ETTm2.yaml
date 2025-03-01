@@ -1,0 +1,16 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: ETTm2
+  loader: ETTm2
+  root_path: ${forecast.data_path}/ETT-small/
+  data_path: ETTm2.csv
+  target: OT
+  freq: M
+  seq_len: ${forecast.seq_len}
+  label_len: 0
+  pred_len: ${forecast.pred_len}
+  enc_in: 7
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [ 0,1,2,3,4,5,6 ]
+batch_size: ${forecast.batch_size}

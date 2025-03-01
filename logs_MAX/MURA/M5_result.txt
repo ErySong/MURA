@@ -1,0 +1,4 @@
+./logs/MURA/M5/MURA_96_24/version_1  
+MSE: 0.48017, MAE: 0.48953
+
+

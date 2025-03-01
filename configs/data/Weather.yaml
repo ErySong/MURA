@@ -1,0 +1,16 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: Weather
+  loader: custom
+  root_path: ${forecast.data_path}/weather/
+  data_path: weather.csv
+  target: OT
+  freq: M
+  seq_len: ${forecast.seq_len}
+  label_len: ${forecast.label_len}
+  pred_len: ${forecast.pred_len}
+  enc_in: 21
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [ 0,1,2,4,7,15,20 ]
+batch_size: ${forecast.batch_size}

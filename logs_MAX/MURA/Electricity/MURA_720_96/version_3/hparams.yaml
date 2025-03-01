@@ -1,0 +1,38 @@
+BackboneModel: !!python/name:models.MURA.Model ''
+batch_size: 64
+data_params:
+  data_path: electricity.csv
+  embed: timeF
+  enc_in: 321
+  features: M
+  freq: h
+  label_len: 0
+  loader: custom
+  name: Electricity
+  pred_len: 96
+  root_path: /data/songzy/workshop/data/time_series/long_tf/electricity/
+  seq_len: 720
+  target: OT
+  visual_cs:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 10
+  - 250
+  - 300
+  - 318
+  - 319
+  - 320
+net_params:
+  channels: 321
+  d_model: 4096
+  features: M
+  lr: 0.01
+  name: MURA
+  norm_type: seq
+  pred_len: 96
+  seq_len: 720
+  stride: 12
+  trend_freq: 0.9
+  visual_cs: 0

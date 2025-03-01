@@ -1,0 +1,35 @@
+BackboneModel: !!python/name:models.MURA.Model ''
+batch_size: 64
+data_params:
+  data_path: m5.csv
+  embed: timeF
+  enc_in: 30
+  features: M
+  freq: M
+  label_len: 0
+  loader: custom
+  name: M5
+  pred_len: 24
+  root_path: /data/songzy/workshop/data/time_series/short_tf/m5
+  seq_len: 96
+  target: OT
+  visual_cs:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+net_params:
+  channels: 30
+  d_model: 512
+  features: M
+  lr: 0.01
+  name: MURA
+  norm_type: seq
+  pred_len: 24
+  seq_len: 96
+  stride: 1
+  trend_freq: 0.1
+  visual_cs: 0

@@ -1,0 +1,17 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: Exchange_rate
+  loader: custom
+  root_path: ${forecast.data_path}/exchange_rate/
+  data_path: exchange_rate.csv
+  target: OT 
+  freq: h
+  seq_len: ${forecast.seq_len}
+  label_len: 0
+  pred_len: ${forecast.pred_len}
+  enc_in: 8
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [0, 1, 2, 3, 4, 5, 6, 7]
+
+batch_size: ${forecast.batch_size}

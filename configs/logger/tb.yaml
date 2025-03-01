@@ -1,0 +1,2 @@
+name: ${model.net_params.name}_${forecast.seq_len}_${forecast.pred_len}
+save_dir: ./logs/${model.net_params.name}/${data.data_params.name}

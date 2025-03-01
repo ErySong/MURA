@@ -1,0 +1,7 @@
+data_path: datasets/
+seq_len: 336
+pred_len: 96
+label_len: 0
+features: M
+batch_size: 128
+lr: 0.01

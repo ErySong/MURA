@@ -1,0 +1,16 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: Solar
+  loader: Solar
+  root_path: ${forecast.data_path}/solar/
+  data_path: solar_AL.txt
+  target: OT
+  freq: M
+  seq_len: ${forecast.seq_len}
+  label_len: 0
+  pred_len: ${forecast.pred_len}
+  enc_in: 137
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [0, 1, 2, 10, 15, 30, 40, 60, 90, 120, 135, 136]
+batch_size: ${forecast.batch_size}

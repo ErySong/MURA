@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - trainer: gpu0
+  - data: ettm1
+  - forecast: long
+  - model: MURA
+  - logger: csv
+seed: 2024
+ckpt_path: 

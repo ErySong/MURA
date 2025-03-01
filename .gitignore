@@ -1,0 +1,11 @@
+# 忽略检查点
+*.ckpt
+#忽略
+/.vscode
+/.idea
+/outputs
+__pycache__/
+*.pyc
+.env
+*.npy
+/.git

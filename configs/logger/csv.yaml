@@ -1,0 +1,2 @@
+name: ${data.data_params.name}-${model.net_params.name}
+save_dir: ./eval

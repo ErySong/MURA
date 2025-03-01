@@ -1,0 +1,9 @@
+_target_: lightning.pytorch.trainer.Trainer
+accelerator: gpu
+devices: [0]
+max_epochs: 40
+min_epochs: 2
+limit_train_batches: 200
+check_val_every_n_epoch: 1
+fast_dev_run: False
+

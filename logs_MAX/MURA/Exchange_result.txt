@@ -1,0 +1,12 @@
+./logs_MAX/MURA/Exchange/MURA_96_96/version_3  
+MSE: 0.07729, MAE: 0.19615
+
+./logs_MAX/MURA/Exchange/MURA_96_192/version_3  
+MSE: 0.16003, MAE: 0.29478
+
+./logs_MAX/MURA/Exchange/MURA_96_336/version_3  
+MSE: 0.27453, MAE: 0.39861
+
+./logs_MAX/MURA/Exchange/MURA_96_720/version_3  
+MSE: 0.71567, MAE: 0.64676
+

@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - trainer: gpu0
+  - data: ettm1
+  - forecast: long
+  - model: MURA
+  - logger: tb
+seed: 1025
+train: True
+test: False
+early_stop: True

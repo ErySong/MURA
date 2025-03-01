@@ -1,0 +1,16 @@
+_target_: data.datamodule.DataModule
+data_params:
+  name: M5
+  loader: custom
+  root_path: /data/songzy/workshop/data/time_series/short_tf/m5
+  data_path: m5.csv
+  target: OT
+  freq: M
+  seq_len: ${forecast.seq_len}
+  label_len: 0
+  pred_len: ${forecast.pred_len}
+  enc_in: 30
+  embed: timeF
+  features: ${forecast.features}
+  visual_cs: [ 0,1,2,3,4,5,6 ]
+batch_size: ${forecast.batch_size}
