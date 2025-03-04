@@ -1,0 +1,24 @@
+./logs_MIN/MURA/M5/MURA_96_24/version_0  
+MSE: 0.48121, MAE: 0.49055
+
+./logs_MIN/MURA/M5/MURA_96_36/version_0  
+MSE: 0.50190, MAE: 0.50310
+
+./logs_MIN/MURA/M5/MURA_96_48/version_0  
+MSE: 0.52231, MAE: 0.51385
+
+./logs_MIN/MURA/M5/MURA_96_60/version_0  
+MSE: 0.54382, MAE: 0.52631
+
+./logs_MIN/MURA/M5/MURA_96_24/version_1  
+MSE: 0.48121, MAE: 0.49055
+
+./logs_MIN/MURA/M5/MURA_96_48/version_1  
+MSE: 0.52231, MAE: 0.51385
+
+./logs_MIN/MURA/M5/MURA_96_60/version_1  
+MSE: 0.54382, MAE: 0.52631
+
+./logs_MIN/MURA/M5/MURA_96_36/version_1  
+MSE: 0.49981, MAE: 0.50227
+

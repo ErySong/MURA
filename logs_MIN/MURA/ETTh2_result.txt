@@ -1,0 +1,19 @@
+./logs_MIN/MURA/ETTh2/MURA_336_96/version_0  ♥
+MSE: 0.27880, MAE: 0.33464
+
+
+./logs_MIN/MURA/ETTh2/MURA_336_720/version_0  ♥
+MSE: 0.39533, MAE: 0.42895
+
+./logs_MIN/MURA/ETTh2/MURA_336_96/version_1  
+MSE: 0.28044, MAE: 0.33576
+
+./logs_MIN/MURA/ETTh2/MURA_336_192/version_1  
+MSE: 0.34375, MAE: 0.37606
+
+./logs_MIN/MURA/ETTh2/MURA_336_336/version_1  
+MSE: 0.37236, MAE: 0.40447
+
+./logs_MIN/MURA/ETTh2/MURA_336_720/version_1  
+MSE: 0.39706, MAE: 0.42983
+

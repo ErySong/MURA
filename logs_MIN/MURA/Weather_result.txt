@@ -1,0 +1,14 @@
+
+
+./logs_MIN/MURA/Weather/MURA_720_96/version_1  
+MSE: 0.15218, MAE: 0.19977
+
+./logs_MIN/MURA/Weather/MURA_720_192/version_1  
+MSE: 0.19857, MAE: 0.24512
+
+./logs_MIN/MURA/Weather/MURA_720_336/version_0  
+MSE: 0.25032, MAE: 0.28622
+
+./logs_MIN/MURA/Weather/MURA_720_720/version_0  
+MSE: 0.31716, MAE: 0.33549
+

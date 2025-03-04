@@ -1,5 +1,7 @@
 # MURA: Time Series Forecasting via Frequency Interpolation
 
+Time series forecasting relies on capturing inherent trend and seasonality of the series. Previous methods such as moving average and learnable decomposition depend only on convolutional kernels, which rely on the local dependency and cannot capture the global variation. In this paper, we introduce a seasonality-trend decomposition technique through Frequency Interpolation Decomposition (FID). By interpolation of complex frequencies that contain global variation, it simultaneously obtains the trend of both the look-back window and the forecast window. Further, we employ an Multi-Layer Perceptron (MLP) to predict the seasonal components (residual frequencies) of the look-back window after performing trend downsampling. Combining FID with residual frequency forecasting forms the lightweight and powerful method, called MURA. Extensive experimental results show that the MURA method achieves state-of-the-art performance while maintaining extremely advanced computational efficiency with only about $3k$ parameters. Moreover, FID is also used to enhance the performance of other methods such as PatchTST and iTransformer.
+
 ## Requirements
 We recommend using the latest versions of dependencies. However, you can refer to the requirements.txt file to set up the same environment as we used.
 
@@ -38,3 +40,5 @@ HYDRA_FULL_ERROR=1 python src/train.py \ # change train.py to eval.py
 
 ## License
 This repo is licensed under the MIT License - see the LICENSE file for details.
+
+Southeast University, Nanjing, China

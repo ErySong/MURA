@@ -1,0 +1,15 @@
+./logs_MIN/MURA/ILI/MURA_96_24/version_0  ♥
+MSE: 1.85341, MAE: 0.87040
+
+./logs_MIN/MURA/ILI/MURA_108_36/version_0  ♥
+MSE: 1.75918, MAE: 0.85199
+
+./logs_MIN/MURA/ILI/MURA_108_48/version_1  
+MSE: 1.75310, MAE: 0.87953
+
+./logs_MIN/MURA/ILI/MURA_108_60/version_1  
+MSE: 1.75757, MAE: 0.92196
+
+./logs_MIN/MURA/ILI/MURA_108_24/version_1  
+MSE: 1.89892, MAE: 0.87435
+

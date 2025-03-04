@@ -1,0 +1,35 @@
+BackboneModel: !!python/name:models.MURA.Model ''
+batch_size: 512
+data_params:
+  data_path: weather.csv
+  embed: timeF
+  enc_in: 21
+  features: M
+  freq: M
+  label_len: 0
+  loader: custom
+  name: Weather
+  pred_len: 96
+  root_path: /data/songzy/workshop/data/time_series/long_tf/weather/
+  seq_len: 720
+  target: OT
+  visual_cs:
+  - 0
+  - 1
+  - 2
+  - 4
+  - 7
+  - 15
+  - 20
+net_params:
+  channels: 21
+  d_model: 64
+  features: M
+  lr: 0.01
+  name: MURA
+  norm_type: seq
+  pred_len: 96
+  seq_len: 720
+  stride: 12
+  trend_freq: 0.2
+  visual_cs: 0
