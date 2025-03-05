@@ -15,7 +15,9 @@ Please place the datasets in the ./datasets directory.
 ## Usage
 All experiments can be reproduced using the scripts directory.
 
-You need to modify the `data_path` configuration in file ``configs/forecast/long.yaml`` to the correct path of your dataset.
+You need to modify the `root_path` configuration in file `configs/data/ECL.yaml` to the correct path (absolute path) of your dataset. 
+
+Other datasets can be processed similarly.
 
 ### Train
 
